@@ -16,7 +16,7 @@ pip install uncompyle6
 6. Находим и открываем архив base_library.zip. В нем открываем в hex-редакторе (HxD) файл abc.pyc. Копируем первую строку (до "г").
 ![image](https://user-images.githubusercontent.com/65065736/126106085-f5405e97-65a0-40f3-8f32-95a2bc884a47.png)
 
-7. Вставляем скопированную строку в файл your_filename.pyc из шага 5
+7. Вставляем скопированную строку в файл your_filename.pyc из шага 5 и сохраняем файл
 ![image](https://user-images.githubusercontent.com/65065736/126106591-8364afbf-ada8-462a-87c4-79ea67da22a0.png)
 
 8. Набираем в консоли uncompyle6 your_filename.exe_extracted/your_filename.pyc > your_filename_reverse.py
