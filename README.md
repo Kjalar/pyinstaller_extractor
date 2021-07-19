@@ -9,5 +9,9 @@ pip install uncompyle6
 
 3. Поместите этот файл в директорию с exe файлом
 
-4. Наберите команду pyinstxtractor18.py your_filename.py в консоли
+4. Наберите команду python pyinstxtractor18.py your_filename.py
 
+5. В появившейся директории your_filename.exe_extracted находим файл your_filename и добавляем ему формат .pyc
+
+6. Находим и открываем архив base_library.zip. В нем открываем в hex-редакторе (HxD) файл abc.pyc. Копируем 
+![image](https://user-images.githubusercontent.com/65065736/126106085-f5405e97-65a0-40f3-8f32-95a2bc884a47.png)
